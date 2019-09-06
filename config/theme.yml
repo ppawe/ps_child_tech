@@ -11,8 +11,11 @@ global_settings:
   hooks:
     modules_to_hook:
 
-      displayNavSearchBar:
+      displayNavBarLeft:
         - ps_searchbar
+      displayNavBarMiddle:
+        - ps_mainmenu
+
 
   image_types:
     cart_default:
