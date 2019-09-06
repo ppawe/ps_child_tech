@@ -3,7 +3,7 @@
     <nav class="header-nav">
         <div class="container">
             <div class="searchBarContainer">
-                {hook h='displayNavSearchBar'}
+                {hook h='displayNavBarLeft'}
             </div>
             <div class="row">
                 <div class="col-md-6 hidden-sm-down" id="_desktop_logo">
