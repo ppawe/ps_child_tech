@@ -1,0 +1,45 @@
+parent: tech
+name: child_tech
+display_name: Child theme of tech's theme
+version: 1.0.0
+
+assets:
+  use_parent_assets: true
+
+global_settings:
+
+  hooks:
+    modules_to_hook:
+
+      displayNavSearchBar:
+        - ps_searchbar
+
+  image_types:
+    cart_default:
+      width: 125
+      height: 125
+      scope: [products]
+    small_default:
+      width: 98
+      height: 98
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 452
+      height: 452
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 250
+      height: 250
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 141
+      height: 180
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
