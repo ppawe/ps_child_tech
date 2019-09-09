@@ -2,20 +2,20 @@
 {block name='header_nav'}
     <nav class="header-nav">
         <div class="container">
-            <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
-                <a href="{$urls.base_url}">
-                    <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
-                </a>
-            </div>
-            <div class="displayNavBarLeft">
-                {hook h='displayNavBarLeft'}
-            </div>
-            <div class="displayNavBarMiddle">
-              {hook h='displayNavBarMiddle'}
-            </div>
             <div class="row">
                 <div class="hidden-sm-down">
-                    <div class="col-md-8 right-nav">
+                    <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+                        <a href="{$urls.base_url}">
+                            <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+                        </a>
+                    </div>
+                    <div class="col-md-2 displayNavBarLeft">
+                        {hook h='displayNavBarLeft'}
+                    </div>
+                    <div class="col-md-6 displayNavBarMiddle">
+                        {hook h='displayNavBarMiddle'}
+                    </div>
+                    <div class="col-md-2 right-nav">
                         {hook h='displayNav2'}
                     </div>
                 </div>
