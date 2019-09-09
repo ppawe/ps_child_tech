@@ -2,8 +2,11 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
-.searchBarContainer {
+.displayNavBarLeft {
  float: left;
+}
+.displayNavBarMiddle {
+    float: left;
 }
 
 #search_widget {
@@ -18,4 +21,32 @@
 
 #header .header-nav{
  background: #f0f0f0;
+}
+.top-menu li {
+    display: inline-block;
+}
+@media (min-width: 992px) {
+    .col-lg-8 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-8 {
+        width: 100%;
+    }
+}
+.col-md-8 {
+    padding-right: 0;
+}
+#top-menu {
+    width: fit-content;
+}
+div#_desktop_top_menu {
+    width: fit-content;
+}
+.user-info span {
+display: none;
+}
+#_desktop_cart span {
+display: none;
 }

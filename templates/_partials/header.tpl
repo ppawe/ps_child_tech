@@ -7,14 +7,14 @@
                     <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
                 </a>
             </div>
-            <div class="searchBarContainer">
+            <div class="displayNavBarLeft">
                 {hook h='displayNavBarLeft'}
+            </div>
+            <div class="displayNavBarMiddle">
+              {hook h='displayNavBarMiddle'}
             </div>
             <div class="row">
                 <div class="hidden-sm-down">
-                    <div class="col-md-4 col-xs-12">
-                        {hook h='displayNav1'}
-                    </div>
                     <div class="col-md-8 right-nav">
                         {hook h='displayNav2'}
                     </div>
