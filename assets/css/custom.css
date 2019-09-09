@@ -22,3 +22,22 @@
 #header .header-nav{
  background: #f0f0f0;
 }
+.top-menu li {
+    display: inline-block;
+}
+@media (min-width: 992px)
+.col-lg-8 {
+    width: 100%;
+}
+#top-menu {
+    width: fit-content;
+}
+div#_desktop_top_menu {
+    width: fit-content;
+}
+.user-info span {
+display: none;
+}
+#_desktop_cart span {
+display: none;
+}
