@@ -2,42 +2,93 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
-.displayNavBarLeft {
- float: left;
+#header .header-nav .user-info {
+    margin-left: .9375rem;
 }
-.displayNavBarMiddle {
-    float: left;
+.pull-xs-left {
+    float: left!important;
 }
-
+a.dropdown-item {
+    text-align: left;
+}
+#index #header .header-nav .container .row {
+    max-width: none;
+    float: none;
+}
 #search_widget {
  width: 100%;
 }
-
 .header-nav {
  position: fixed;
  width: 100%;
  z-index: 100;
 }
-
 #header .header-nav{
  background: #f0f0f0;
 }
 .top-menu li {
     display: inline-block;
 }
-@media (min-width: 992px)
-.col-lg-8 {
-    width: 100%;
-}
 #top-menu {
     width: fit-content;
 }
 div#_desktop_top_menu {
     width: fit-content;
+    float: left;
 }
 .user-info span {
 display: none;
 }
 #_desktop_cart span {
 display: none;
+}
+@media (max-width: 767px) {
+    #top-menu {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .top-menu li {
+        display: block;
+    }
+}
+#openSearchBar {
+    color: #878787;
+    margin-left: .9375rem;
+    margin-top: .9375rem;
+    text-align: right;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
+}
+#closeSearchBar {
+    color: #878787;
+    margin-left: .9375rem;
+    margin-top: .9375rem;
+    text-align: right;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
+}
+#searchForStuff {
+    display: none;
+}
+#searchForStuffUl {
+    position: absolute;
+    right: 91px;
+    width: fit-content;
+}
+#searchForStuffLi1 {
+    display: inline-block;
+    margin-top: 0px;
+}
+#searchForStuffLi2 {
+    display: inline-block;
+    float: right;
+}
+
+.block-social li {
+    background-color: transparent;
+}
+.block-social {
+    float: left;
 }
