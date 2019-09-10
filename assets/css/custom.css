@@ -2,6 +2,9 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+#header .header-nav .user-info {
+    margin-left: .9375rem;
+}
 .pull-xs-left {
     float: left!important;
 }
@@ -48,12 +51,37 @@ display: none;
         display: block;
     }
 }
-.openSearchBar {
+#openSearchBar {
     color: #878787;
+    margin-left: .9375rem;
+    margin-top: .9375rem;
+    text-align: right;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
 }
-.closeSearchBar {
+#closeSearchBar {
     color: #878787;
+    margin-left: .9375rem;
+    margin-top: .9375rem;
+    text-align: right;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
 }
-#search_widget {
+#search {
     display: none;
+}
+#searchUl {
+    position: absolute;
+    right: 91px;
+    width: fit-content;
+}
+#searchLi1 {
+    display: inline-block;
+    margin-top: 0px;
+}
+#searchLi2 {
+    display: inline-block;
+    float: right;
 }
