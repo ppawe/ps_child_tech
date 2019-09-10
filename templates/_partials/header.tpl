@@ -9,10 +9,7 @@
                             <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
                         </a>
                     </div>
-                    <div class="col-md-2 displayNavBarLeft">
-                        {hook h='displayNavBarLeft'}
-                    </div>
-                    <div class="col-md-6 displayNavBarMiddle">
+                    <div class="col-md-8 displayNavBarMiddle">
                         {hook h='displayNavBarMiddle'}
                     </div>
                     <div class="col-md-2 right-nav">

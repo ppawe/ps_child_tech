@@ -48,3 +48,12 @@ display: none;
         display: block;
     }
 }
+.openSearchBar {
+    color: #878787;
+}
+.closeSearchBar {
+    color: #878787;
+}
+#search_widget {
+    display: none;
+}

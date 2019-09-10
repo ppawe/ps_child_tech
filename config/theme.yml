@@ -11,11 +11,14 @@ global_settings:
   hooks:
     modules_to_hook:
 
-      displayNavBarLeft:
-        - ps_searchbar
       displayNavBarMiddle:
         - ps_mainmenu
-
+      displayNav2:
+        - ps_languageselector
+        - ps_searchbar
+        - ps_currencyselector
+        - ps_customersignin
+        - ps_shoppingcart
 
   image_types:
     cart_default:
