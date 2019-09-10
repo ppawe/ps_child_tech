@@ -69,19 +69,19 @@ display: none;
     display: block;
     cursor: pointer;
 }
-#search {
+#searchForStuff {
     display: none;
 }
-#searchUl {
+#searchForStuffUl {
     position: absolute;
     right: 91px;
     width: fit-content;
 }
-#searchLi1 {
+#searchForStuffLi1 {
     display: inline-block;
     margin-top: 0px;
 }
-#searchLi2 {
+#searchForStuffLi2 {
     display: inline-block;
     float: right;
 }
