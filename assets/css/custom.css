@@ -92,3 +92,9 @@ display: none;
 .block-social {
     float: left;
 }
+.footer-container li a:hover {
+    color: #70a5c6;
+}
+.block-social li:hover {
+    background-color: transparent; 
+}
