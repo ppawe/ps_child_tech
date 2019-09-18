@@ -9,11 +9,11 @@
                             <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
                         </a>
                     </div>
-                    <div class="col-md-6 displayNavBarMiddle">
-                        {hook h='displayNavBarMiddle'}
-                    </div>
                     <div class="col-md-4 right-nav">
                         {hook h='displayNav2'}
+                    </div>
+                    <div class="col-md-6 displayNavBarMiddle">
+                        {hook h='displayNavBarMiddle'}
                     </div>
                 </div>
                 <div class="hidden-md-up text-xs-center mobile">
@@ -24,6 +24,9 @@
                     <div class="pull-xs-right" id="_mobile_user_info"></div>
                     <div class="top-logo" id="_mobile_logo"></div>
                     <div class="clearfix"></div>
+                    <div id="head_searchbar">
+                        {hook h='displayHeadSearchBar'}
+                    </div>
                 </div>
             </div>
         </div>
