@@ -164,3 +164,25 @@ display: none;
         width: 60%;
     }
 }
+
+/* Mark Einkaufswagen fix */
+@media (max-width: 1750px){
+  .product-line-grid-right .price, .product-line-grid-right .qty {
+      width: 100%;
+    }
+}
+
+@media (max-width: 420px){
+  .product-line-grid-right .price, .product-line-grid-right .qty {
+      width: 100%;
+    }
+}
+.cart-grid {
+    margin-top: 3rem;
+}
+
+@media (max-width: 1200px){
+  .cart-grid {
+      margin-top: 5.5rem;
+  }
+}
