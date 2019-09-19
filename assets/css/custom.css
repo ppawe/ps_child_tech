@@ -186,3 +186,10 @@ display: none;
       margin-top: 5.5rem;
   }
 }
+body#checkout #header .header-nav {
+    padding: 0;
+    max-height: 48px;
+}
+#wrapper {
+    padding-top: 50px;
+}
