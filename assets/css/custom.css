@@ -193,3 +193,9 @@ body#checkout #header .header-nav {
 #wrapper {
     padding-top: 50px;
 }
+#header .header-nav {
+    -moz-box-shadow: 0px 0px 100px 0px #000000db;
+    -webkit-box-shadow: 0px 0px 100px 0px #000000db;
+    box-shadow: 0px 0px 100px 0px #000000db;
+    margin-bottom: 0;
+}
