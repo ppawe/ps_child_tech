@@ -50,6 +50,8 @@ global_settings:
         - ps_featuredproducts
       displayCrossSellingShoppingCart:
         - ps_featuredproducts
+      displayGoogleAnalytics:
+        - ps_googleanalytics
 
   image_types:
     cart_default:
