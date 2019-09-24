@@ -180,7 +180,7 @@ display: none;
     }
 }
 
-/* Mark Einkaufswagen fix */
+/*Einkaufswagen*/
 @media (max-width: 1750px){
   .product-line-grid-right .price, .product-line-grid-right .qty {
       width: 100%;
@@ -201,6 +201,7 @@ display: none;
       margin-top: 5.5rem;
   }
 }
+
 body#checkout #header .header-nav {
     padding: 0;
     max-height: 48px;
@@ -210,4 +211,10 @@ body#checkout #header .header-nav {
     -webkit-box-shadow: 0px 0px 100px 0px #000000db;
     box-shadow: 0px 0px 100px 0px #000000db;
     margin-bottom: 0;
+
 }
+.form-control {
+    background: #eee;
+}
+
+
