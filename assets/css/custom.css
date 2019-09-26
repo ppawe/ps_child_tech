@@ -146,6 +146,16 @@ display: none;
 #head_searchbar .search-widget form input[type=text] {
     width: 100%;
 }
+#searchBar .search-widget form input[type=text] {
+    margin-right: 70px;
+}
+#searchBar i.material-icons.search {
+    margin-right: 70px;
+}
+#content div#searchBar {
+    display: none;
+}
+
 
 .right-nav div#searchBar {
     display: block;
@@ -216,5 +226,17 @@ body#checkout #header .header-nav {
 .form-control {
     background: #eee;
 }
+#header .header-nav .user-info {
+    margin-top: .2rem;
+}
 
+.dropdown .btn-secondary{
+    box-shadow: none;
+    background-color: transparent;
+    color: #878787;
+}
 
+.btn-secondary.active.focus, .btn-secondary.active:focus, .btn-secondary.active:hover, .btn-secondary:active.focus, .btn-secondary:active:focus, .btn-secondary:active:hover, .btn-tertiary:active.focus, .btn-tertiary:active:focus, .btn-tertiary:active:hover, .open>.btn-secondary.dropdown-toggle.focus, .open>.btn-secondary.dropdown-toggle:focus, .open>.btn-secondary.dropdown-toggle:hover {
+    background-color: transparent;
+    color: #878787;
+}
